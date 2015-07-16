@@ -1,0 +1,9 @@
+{
+    "name" : "KunvertorRealTime",
+    "version" : "1.0.0",
+    "dependencies":
+    {	
+	"redis": "~0.12",
+	"socket.io": "~1.2"
+    }	
+}
