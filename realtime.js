@@ -6,8 +6,6 @@ var options = {
 var io = require("socket.io")(options).listen(server);
 
 var redisClient = require('redis').createClient(6379, 'localhost');
-// subcribe to gearman job 
-redisClient.subscribe('gearman-job-status');
 
 //online clients
 var onlineClients = {};
